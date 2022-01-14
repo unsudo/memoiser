@@ -5,7 +5,7 @@ Store the results of expensive function calls and return the cached result when 
 
 ## Synchronous usage
 ```js
-const { memoiseSync } = require('@unsudo/memoiser.js');
+const { memoiseSync } = require('@unsudo/memoiser');
 
 const expensiveSyncFn = (x, y) => {
     for (let i = 0; i < 1e10; i++);
