@@ -1,0 +1,34 @@
+{
+  "name": "@unsudo/memoiser",
+  "version": "1.0.0",
+  "description": "Store the results of expensive function calls and return the cached result when the same input occurs again",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "memoize",
+    "memoise",
+    "memoizer",
+    "memoiser",
+    "memoization",
+    "memoisation",
+    "cache",
+    "performance",
+    "function-cache",
+    "method-cache",
+    "class-cache"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unsudo/memoiser.git"
+  },
+  "author": {
+    "name": "Archontis-Dimitrios Maletsas",
+    "email": "admaletsas@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.2.0"
+  }
+}
